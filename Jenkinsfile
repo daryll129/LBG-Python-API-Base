@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        GCR_CREDENTIALS_ID = 'projectteam2' // The ID you provided in Jenkins credentials
+        GCR_CREDENTIALS_ID = 'projectteam2' // The ID you provided in Jenkins credentials1
         IMAGE_NAME = 'lbgpy'
         GCR_URL = 'europe-west1-docker.pkg.dev/lbg-mea-20/zibs-docker-repo/'
     }
