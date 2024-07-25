@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: flask-container
-        image: europe-west1-docker.pkg.dev/lbg-mea-20/zibs-docker-repo/lbgpy
+        image: europe-west1-docker.pkg.dev/lbg-mea-20/zibs-docker-repo/lbgpy:tag1
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
