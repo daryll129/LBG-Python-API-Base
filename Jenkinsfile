@@ -3,7 +3,7 @@ pipeline {
     environment {
         GCR_CREDENTIALS_ID = 'projectteam2' // The ID you provided in Jenkins credentials1
         IMAGE_NAME = 'lbgpy'
-        GCR_URL = 'europe-west1-docker.pkg.dev/lbg-mea-20/zibs-docker-repo/'
+        GCR_URL = 'europe-west1-docker.pkg.dev/lbg-mea-20/zibs-docker-repo'
     }
     stages {
         stage('Build and Push to GCR') {
